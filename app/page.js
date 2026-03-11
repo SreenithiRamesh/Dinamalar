@@ -8,8 +8,7 @@ async function getNews() {
 export default async function Home() {
   const news = await getNews()
 
-  const image =
-    "https://images.unsplash.com/photo-1504711434969-e33886168f5c"
+  const image = "https://images.unsplash.com/photo-1504711434969-e33886168f5c"
 
   return (
     <div style={{ padding: "20px", maxWidth: "1200px", margin: "auto" }}>
