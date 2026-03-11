@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 "use client"
 
 import { FaFacebookF, FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
